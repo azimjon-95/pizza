@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 140px;
+    height: 150px;
+    
+    
+   
+
+
+
+}

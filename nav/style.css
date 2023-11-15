@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    /* width: 320px; */
+    /* height: 460px; */
+    background-color: #3a4654;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.box>p {
+    color: #828282;
+}
+
+.Display {
+    width: 90%;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.Display>h1 {
+    color: #ffffff;
+}
+
+.Display>h1>b {
+    color: yellow;
+}
+
+.btns {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.btnTop {
+    width: 60px;
+    height: 60px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #404d5d;
+    border: none;
+    cursor: pointer;
+}
+
+#c {
+    color: red
+}
+
+.btnNum {
+    width: 60px;
+    height: 60px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #4b5b6b;
+    border: 1.5px solid #404d5d;
+    cursor: pointer;
+
+}
+
+.btnNum:hover:active {
+    transform: scale(.9);
+}
+.btnTop:hover:active {
+    transform: scale(.9);
+}
